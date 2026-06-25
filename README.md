@@ -42,7 +42,7 @@ Each release includes:
 - Ask in **#sec411-labs** on the SEC411 Slack workspace
 - Use `/support` in Slack for direct support
 
-If setup fails with certificate, TLS, or model-download errors on a restricted corporate network, mention "restricted network" or "offline bundle" when asking for help. The normal release ZIP does not include offline model bundles; support can help determine whether you need a corporate CA fix or an offline bundle path.
+If setup fails with certificate, TLS, or model-download errors on a restricted network, mention "restricted network" or "offline bundle" when asking for help. The normal release ZIP does not include offline model bundles; support can help with the appropriate course-side workaround.
 
 ## 📚 Course Information
 

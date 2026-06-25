@@ -7,7 +7,9 @@ Official distribution repository for SANS SEC411 AI Security Essentials course l
 1. **Download the latest release**: [Releases page](https://github.com/sethmisenar/411_labs_releases/releases/latest)
 2. **File to download**: `sec411-labs-vX.X.X.zip` (password-protected)
 3. **Password**: Provided in your SANS course materials
-4. **Extract and run**: Follow instructions in included `QUICKSTART.md`
+4. **Extract locally and run setup**: Follow the included `QUICKSTART.md`
+
+The ZIP is intentionally small. Setup downloads the larger container images and model assets the first time you run the labs.
 
 ## 📦 What's Included
 
@@ -19,9 +21,11 @@ Official distribution repository for SANS SEC411 AI Security Essentials course l
 ## 📋 System Requirements
 
 - Docker Desktop installed and running
-- 4GB RAM available
-- 2GB disk space
+- 16 GB system RAM recommended
+- Docker memory: 4 GB minimum, 6-8 GB recommended
+- 20 GB free disk space recommended
 - Modern web browser (Chrome, Firefox, Edge, Safari)
+- Ports 8800-8804 and 3800-3804 available
 
 ## 🔐 About This Repository
 
@@ -35,7 +39,10 @@ Each release includes:
 ## 🆘 Support
 
 - Check included `QUICKSTART.md` for setup instructions
-- Contact online SMEs for technical support
+- Ask in **#sec411-labs** on the SEC411 Slack workspace
+- Use `/support` in Slack for direct support
+
+If setup fails with certificate, TLS, or model-download errors on a restricted corporate network, mention "restricted network" or "offline bundle" when asking for help. The normal release ZIP does not include offline model bundles; support can help determine whether you need a corporate CA fix or an offline bundle path.
 
 ## 📚 Course Information
 
